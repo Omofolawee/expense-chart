@@ -1,0 +1,136 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
+body{
+    display: flex;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.top{
+    background-color: hsl(10, 79%, 65%);
+    width: 28%;
+    border-radius: 10px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+.title-one{
+    font-size: 18px;
+}
+.bal{
+    font-size: 20px;
+    font-weight: 400;
+}
+.bottom{
+    background-color: hsl(33, 100%, 98%);
+    width: 28%;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+.title-two{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: hsl(25, 47%, 15%);
+}
+.bar-chart{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.bar{
+    text-align: center;
+    color: gray;
+}
+.box{
+    height: 100px;
+    background-color: black;
+    border-radius: 5px;
+    width: 40px;
+    font-family: sans-serif;
+    color: gray;
+}
+.mon{
+    height: 35px;
+
+}
+.tue{
+    height: 80px;
+}.wed{
+    height:130px ;
+}
+.thu{
+    height: 60px;
+}
+.fri{
+    height: 40px;
+}
+.sat{
+    height: 100px;
+}
+.sun{
+    height: 50px;
+}
+hr{
+    background-color: hsl(25, 47%, 15%);
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    color: hsl(28, 10%, 53%);
+    font-size: 19px;
+    font-family: serif;
+}
+.total-price{
+    color:hsl(25, 47%, 15%);
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+.inrease{
+    color:hsl(25, 47%, 15%) ;
+    font-size: 18px;
+    font-family: serif;
+    font-weight: 1000;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -15px;
+}
+.last-month{
+    color: hsl(28, 10%, 53%);
+    font-size: 19px;
+    font-family: serif;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:960px){
+    .top{
+        width: 80%;
+    }
+    .bottom{
+        width: 80%;
+    }
+}
